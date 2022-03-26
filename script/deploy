@@ -2,7 +2,7 @@
 
 ssh rajesh@192.168.11.214 <<EOF
  cd ~/node-app
- git pull https://github.com/rajeshm2/node-app.git
+ git pull 
  npm install — production
  pm2 restart all
  exit
