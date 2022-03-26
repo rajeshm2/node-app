@@ -1,9 +1,8 @@
-#!/bin/sh
 
-ssh rajesh@192.168.11.214 <<EOF
+ssh rajesh@192.168.11.214 /bin/bash <<'EOT'
  cd ~/node-app
  git pull 
  npm install --production
  pm2 restart all
  exit
-EOF
+EOT
