@@ -1,7 +1,9 @@
-#!/bin/sh     
-ssh rajesh@192.168.11.214 <  cd /node-app 
- git pull      
- npm install --production      
+#!/bin/sh
+
+ssh rajesh@192.168.11.214 <<EOF
+ cd ~/node-app
+ git pull https://github.com/rajeshm2/node-app.git
+ npm install — production
  pm2 restart all
- exit      
+ exit
 EOF
