@@ -1,5 +1,5 @@
 
-ssh root@192.168.11.214 -p 22 /bin/bash <<'EOT'
+ssh rajesh@192.168.11.214 -p 22 /bin/bash <<'EOT'
  cd ~/node-app
  git pull 
  npm install --production
