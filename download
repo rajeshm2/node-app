@@ -1,0 +1,1657 @@
+
+
+<!doctype html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ngrok - download</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="ngrok secure introspectable tunnels to localhost webhook development tool and debugging tool">
+    <meta name="author" content="inconshreveable">
+    
+    <link href="/static/css/normalize.min.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/webflow.min.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/ngrok.webflow.min.css" rel="stylesheet" type="text/css">
+    
+    <link href="/static/css/tailwind.min.css" rel="stylesheet" type="text/css">
+    
+    
+    <link rel="stylesheet" href="/static/css/base.min.css?t=2022-04-02%2020%3A35%3A47.302087" />
+    <link rel="stylesheet" href="/static/css/marketing.min.css?t=2022-04-02%2020%3A35%3A47.302087" />
+    
+    <script src="/static/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+
+    <link href="/static/img/favicon.png" rel="shortcut icon" type="image/x-icon">
+
+    
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P4F37ZW');</script>
+<!-- End Google Tag Manager -->
+    
+    <script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="mwgwydQ2KzZdoEx2JMS9JJPcDazPrs00";;analytics.SNIPPET_VERSION="4.15.3";
+  analytics.load("mwgwydQ2KzZdoEx2JMS9JJPcDazPrs00");
+  analytics.page();
+  }}();
+</script>
+    
+  </head>
+
+  <body>
+    
+      <header>
+  <nav class="nav-desktop">
+	  <a href=/ aria-current="page" class="nav-logo-link w-inline-block w--current no-border-bottom">
+		  <img src="/static/img/ngrok-black.svg" alt="ngrok" class="nav-logo-desktop">
+	  </a>
+    <div class="nav-links-center">
+      <a href=/product class="nav-link w-inline-block">
+        <div class="download-arrow-link">
+          <div class="nav-link-text">How it works</div>
+        </div>
+      </a>
+      <a href=/pricing class="nav-link w-inline-block">
+        <div class="download-arrow-link">
+          <div class="nav-link-text">Pricing</div>
+        </div>
+      </a>
+      <a href=/product/ngrok-link class="nav-link w-inline-block">
+        <div class="download-arrow-link">
+          <div class="nav-link-text">Enterprise solutions</div>
+        </div>
+      </a>
+      <a href=/docs class="nav-link w-inline-block">
+        <div class="download-arrow-link">
+          <div class="nav-link-text">Docs</div>
+        </div>
+      </a>
+      <a href=/download class="nav-link w-inline-block">
+        <div class="download-arrow-link">
+          <div class="nav-link-text">Download</div><img src="/static/img/download-arrow.svg" alt="" class="download-arrow-icon"></div>
+      </a>
+    </div>
+    <div class="nav-links-right">
+      <a href=https://dashboard.ngrok.com/login class="nav-link w-inline-block">
+        <div class="download-arrow-link">
+          <div class="nav-link-text">Login</div>
+        </div>
+      </a><a href=https://dashboard.ngrok.com/signup class="cta-button ghost-button-nav w-button">Sign up</a></div>
+  </nav>
+  <nav class="nav-mobile-wrap">
+    <div class="navbar-mobile"><a href="/" aria-current="page" class="w-inline-block w--current no-border-bottom"><img src="/static/img/ngrok-black.svg" alt="" class="nav-mobile-logo"></a><a href="#" data-w-id="d2062cc3-07a3-19b5-7ffa-4ca884b13fe8" class="hamburger-button w-inline-block no-border-bottom"><img src="/static/img/Group-3.svg" data-w-id="d2062cc3-07a3-19b5-7ffa-4ca884b13fe9" alt="" class="x-icon"><img src="/static/img/Group-34.svg" data-w-id="d2062cc3-07a3-19b5-7ffa-4ca884b13fea" alt="" class="hamburger-icon"></a></div>
+    <div data-w-id="d2062cc3-07a3-19b5-7ffa-4ca884b13feb" class="dark-overlay"></div>
+    <div class="nav-mobile-menu-wrap no-border-bottom">
+      <div class="nav-mobile-menu">
+		<a href=/product class="nav-link w-inline-block">
+			  <div class="nav-menu-link-text">How it works</div>
+        </a>
+		<a href=/pricing class="nav-link w-inline-block">
+          <div class="nav-menu-link-text">Pricing</div>
+        </a>
+		<a href=/product/ngrok-link class="nav-link w-inline-block">
+			<div class="nav-menu-link-text">Enterprise solutions</div>
+		</a>
+		<a href=/docs class="nav-link w-inline-block">
+          <div class="nav-menu-link-text">Docs</div>
+        </a>
+		<a href=/download class="nav-link w-inline-block">
+          <div class="nav-menu-link-text">Download</div>
+        </a>
+		<a href=https://dashboard.ngrok.com/login class="nav-link w-inline-block">
+          <div class="nav-menu-link-text">Login</div>
+        </a>
+		<a href=https://dashboard.ngrok.com/signup class="cta-button ghost-button mobile-nav w-button">Sign up</a></div>
+    </div>
+  </nav>
+</header>
+    
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4F37ZW"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    
+    
+
+<div
+  class="flex flex-col items-center text-xs sm:text-sm md:text-lg pb-32"
+  style="
+    background-color: #2e2d4c;
+    background-image: url('/static/img/v2/download-confetti-2.svg');
+    background-attachment: fixed;
+    background-position: center;
+  "
+>
+  <div class="text-center mt-24">
+    <h1 class="text-4xl" style="color: #f1eff6; font-weight: 600">
+      Install ngrok
+    </h1>
+    <p style="color: #c0bcc9; font-size: 20px; line-height: 40px">
+      The fastest way to put anything on the internet.
+    </p>
+  </div>
+  <div
+    class="mt-8 w-full sm:w-5/6 lg:w-800 bg-white rounded-lg"
+    style="box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06)"
+  >
+    <div class="grid grid-cols-5 gap-0">
+      <div
+        class="
+          border-l border-gray-200
+          flex flex-col
+          items-center
+          justify-center
+          py-4
+          bg-gray-100
+          tab
+          cursor-pointer
+          hover:bg-gray-200
+          rounded-tl-lg
+        "
+        style="box-shadow: 0px -8px 30px rbga(0, 0, 0, 0.06)"
+        id="macos"
+      >
+        <svg
+          class="mb-2 w-4 h-4 md:w-7 md:h-8 text-gray-400"
+          viewBox="0 0 30 34"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M21.9897 0.355881C22.0504 1.16376 22.2137 3.34092 20.202 5.72901C18.743 7.43301 16.972 8.43001 15.03 8.28101C14.866 6.22701 15.633 4.40401 16.935 2.93101C18.118 1.55401 20.194 0.438008 21.988 0.333008L21.9897 0.355881ZM28.135 11.638C25.634 13.156 24.399 15.217 24.414 17.948C24.414 17.9519 24.4138 17.959 24.4135 17.9693C24.4035 18.331 24.2864 22.5658 29.006 24.787C28.098 27.526 24.987 33.613 21.37 33.665C20.3568 33.665 19.5462 33.3523 18.7106 33.0298C17.8217 32.6869 16.9045 32.333 15.685 32.333C14.3648 32.333 13.371 32.7098 12.44 33.0628C11.6498 33.3624 10.9049 33.6448 10.044 33.665C6.45702 33.777 3.01902 27.079 2.06602 24.348C1.35202 22.27 0.994019 20.255 0.994019 18.306C0.994019 11.705 5.40702 8.46001 9.56002 8.39301C10.7109 8.39301 12.0426 8.87409 13.1802 9.28508C14.0285 9.59153 14.7689 9.85901 15.246 9.85901C15.631 9.85901 16.2596 9.6265 17.031 9.34116C18.3753 8.84391 20.1533 8.18621 21.832 8.31901C24.622 8.53401 26.736 9.63601 28.135 11.638Z"
+            class="fill-current"
+          />
+        </svg>
+        <div class="text-gray-400">Mac OS</div>
+      </div>
+      <div
+        class="
+          border-l border-gray-200
+          flex flex-col
+          items-center
+          justify-center
+          py-4
+          bg-gray-100
+          tab
+          cursor-pointer
+          hover:bg-gray-200
+        "
+        style="box-shadow: 0px -8px 30px rbga(0, 0, 0, 0.06)"
+        id="windows"
+      >
+        <svg
+          class="mb-2 w-4 h-4 md:w-7 md:h-8 text-gray-400"
+          viewBox="0 0 30 34"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M15.497 16.241V2.84101L33.667 0.333008V16.241H15.497ZM13.994 3.04201L0.333008 4.92401V16.241H13.994V3.04201ZM13.994 30.958L0.333008 29.076V17.923H13.994V30.958ZM15.497 31.159L33.667 33.667V17.923H15.497V31.159Z"
+            class="fill-current"
+          />
+        </svg>
+        <div class="text-gray-400">Windows</div>
+      </div>
+      <div
+        class="
+          border-l border-gray-200
+          flex flex-col
+          items-center
+          justify-center
+          py-4
+          bg-gray-100
+          tab
+          cursor-pointer
+          hover:bg-gray-200
+        "
+        style="box-shadow: 0px -8px 30px rbga(0, 0, 0, 0.06)"
+        id="linux"
+      >
+        <svg
+          class="mb-2 w-4 h-4 md:w-7 md:h-8 fill-current text-gray-400"
+          viewBox="0 0 30 34"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M26.753 26.62C26.526 26.3678 26.4147 25.8944 26.2951 25.3851L26.284 25.338C26.167 24.811 26.03 24.244 25.601 23.88C25.516 23.808 25.431 23.743 25.34 23.691C25.256 23.639 25.165 23.593 25.073 23.561C25.672 21.784 25.438 20.013 24.833 18.411C24.09 16.452 22.795 14.74 21.805 13.568L21.7552 13.5054C20.66 12.1282 19.6123 10.8108 19.631 8.88103C19.6323 8.76142 19.6341 8.6377 19.6358 8.5104L19.6359 8.50886C19.679 5.45563 19.7513 0.339787 14.697 0.334028C9.04692 0.322162 9.3827 5.16607 9.57244 7.9033C9.60656 8.39548 9.63596 8.81955 9.62498 9.13503C9.51498 10.658 9.20898 11.856 8.16098 13.347C6.92998 14.811 5.19898 17.175 4.37898 19.642C3.98798 20.807 3.80598 21.992 3.97498 23.112C3.72946 23.3309 3.51897 23.6181 3.31927 23.8906L3.31926 23.8906L3.31925 23.8906C3.17491 24.0876 3.03621 24.2768 2.89398 24.427C2.66128 24.6648 2.33848 24.7762 1.97823 24.9006L1.97814 24.9006L1.97813 24.9006C1.91578 24.9221 1.8523 24.944 1.78798 24.967C1.35098 25.123 0.875984 25.357 0.582984 25.911C0.446984 26.165 0.400984 26.438 0.400984 26.718C0.400984 26.972 0.439984 27.232 0.478984 27.486L0.49438 27.5895C0.5673 28.0782 0.634696 28.5298 0.530984 28.84C0.192984 29.778 0.146984 30.429 0.387984 30.904C0.634984 31.379 1.12998 31.587 1.69598 31.705C2.05174 31.7789 2.44754 31.8236 2.86057 31.8702C3.756 31.9712 4.73236 32.0814 5.55698 32.518C6.84598 33.195 8.15398 33.436 9.19598 33.195C9.95098 33.026 10.569 32.57 10.882 31.88C11.2615 31.8772 11.6592 31.8008 12.1208 31.712L12.1208 31.712L12.1208 31.712C12.6494 31.6104 13.2616 31.4927 14.026 31.451C14.4806 31.4145 14.9896 31.488 15.5462 31.5684C16.177 31.6595 16.8692 31.7595 17.613 31.718C17.652 31.867 17.704 32.017 17.776 32.154V32.16C18.316 33.247 19.325 33.742 20.399 33.658C21.48 33.573 22.619 32.941 23.544 31.841C24.1665 31.0905 25.0725 30.6487 25.8927 30.2487L25.8928 30.2487C26.2387 30.0801 26.5693 29.9188 26.857 29.745C27.339 29.452 27.729 29.088 27.762 28.554C27.788 28.02 27.476 27.428 26.753 26.62ZM13.8515 8.40703C13.8298 8.38936 13.8082 8.37182 13.785 8.36003C13.7602 8.34642 13.7281 8.33914 13.696 8.33186C13.6362 8.31829 13.5764 8.30472 13.564 8.25003C13.551 8.22303 13.577 8.19103 13.603 8.17803C13.707 8.11903 13.85 8.13903 13.961 8.18403L13.9694 8.18786C14.0546 8.22686 14.1816 8.28496 14.169 8.37303C14.163 8.44503 14.052 8.47103 13.981 8.47103C13.9302 8.47103 13.8906 8.43881 13.8515 8.40703ZM12.4882 8.4073C12.4493 8.439 12.41 8.47103 12.36 8.47103C12.295 8.47703 12.184 8.44503 12.177 8.38003C12.1645 8.29232 12.2913 8.23434 12.3766 8.19534L12.386 8.19103C12.496 8.14503 12.64 8.12603 12.744 8.18403C12.77 8.19703 12.796 8.23003 12.783 8.25603C12.7664 8.30575 12.7076 8.31849 12.6484 8.3313C12.6148 8.33858 12.5811 8.34589 12.555 8.36003C12.5316 8.37188 12.51 8.38953 12.4882 8.4073L12.4882 8.4073ZM16.838 5.99103C16.2 4.59703 14.612 4.57103 13.974 6.01703C13.766 6.48503 13.72 6.98703 13.785 7.43603C14.02 7.49403 14.365 7.59203 14.632 7.72203C14.495 6.92803 14.925 6.19203 15.4 6.22503C15.979 6.24403 16.305 7.23403 15.992 8.00203C15.954 8.09261 15.8744 8.16878 15.8062 8.23406L15.8061 8.23408L15.8061 8.23413C15.781 8.25819 15.7574 8.28076 15.738 8.30203C16.174 8.45103 16.454 8.56903 16.558 8.62103C17.073 8.00203 17.262 6.91503 16.838 5.99103ZM11.325 5.26803C11.982 5.26803 12.679 6.19203 12.568 7.44903C12.34 7.51403 12.106 7.61203 11.904 7.74803C11.982 7.16903 11.689 6.44003 11.279 6.47203C10.732 6.51803 10.641 7.85203 11.162 8.30203C11.1704 8.30875 11.1787 8.31352 11.1856 8.31752C11.195 8.32293 11.202 8.32696 11.2036 8.33253C11.2083 8.34871 11.1678 8.37795 11.0096 8.49197L11.0096 8.49199L11.0096 8.49201L11.0095 8.49203L11.0095 8.49204L11.0094 8.49213L11.0091 8.49232L11.009 8.49243C10.9497 8.53517 10.874 8.58978 10.778 8.66003C9.76198 7.70903 10.094 5.26803 11.325 5.26803ZM10.797 8.955L10.7963 8.95551C10.6792 9.04173 10.5558 9.13256 10.439 9.21903C10.166 9.43403 10.075 9.70103 10.166 10.02C10.263 10.339 10.563 10.704 11.123 11.016C11.3507 11.1505 11.5312 11.3149 11.708 11.4759C11.9256 11.6741 12.1375 11.8672 12.425 11.993C12.594 12.064 12.796 12.116 13.05 12.129C13.836 12.1763 14.3504 11.8445 14.8154 11.5446C15.0585 11.3878 15.2881 11.2397 15.536 11.159C16.298 10.919 16.845 10.443 17.014 9.98103C17.222 9.42803 16.877 9.02403 16.331 8.79603C16.0206 8.66152 15.7834 8.58035 15.5819 8.51143L15.5819 8.51143L15.5819 8.51142L15.5819 8.51141L15.5818 8.5114C15.3056 8.4169 15.0967 8.34543 14.859 8.19103C14.189 7.76103 13.636 7.61203 13.173 7.61203C12.3183 7.61203 11.7665 8.14287 11.4439 8.45319C11.4128 8.48307 11.3839 8.51091 11.357 8.53603C11.3343 8.55947 11.0845 8.74331 10.797 8.955ZM10.654 30.962C10.478 33.247 7.79598 33.202 5.75198 32.134C4.81482 31.639 3.74453 31.5226 2.82928 31.4231C1.84403 31.316 1.03845 31.2285 0.771984 30.709C0.615984 30.403 0.615984 29.882 0.940984 28.99V28.977C1.07989 28.5391 1.00353 28.0604 0.930059 27.5999C0.920491 27.5399 0.910972 27.4803 0.901984 27.421C0.823984 26.913 0.784984 26.445 0.960984 26.119C1.18898 25.683 1.51398 25.527 1.92398 25.384C2.04043 25.3422 2.13958 25.3082 2.2266 25.2784C2.64103 25.1363 2.78014 25.0886 3.19998 24.739C3.38893 24.5432 3.55085 24.3201 3.70751 24.1043C3.84769 23.9111 3.98365 23.7238 4.13098 23.567C4.46298 23.209 4.78198 23.04 5.28298 23.118C5.81098 23.196 6.26598 23.561 6.70898 24.16L7.98498 26.477C8.21397 26.9572 8.65852 27.5142 9.12047 28.093C9.90523 29.0762 10.7402 30.1223 10.654 30.962ZM9.62498 28C9.93798 28.391 10.296 28.847 10.563 29.276C13.011 30.949 15.914 30.298 18.004 28.808L18.0386 28.689C18.2339 28.0179 18.4158 27.3932 18.446 26.92C18.498 25.93 18.551 25.052 18.733 24.322C18.935 23.502 19.338 22.819 20.126 22.545C20.276 21.172 21.343 21.172 22.619 21.731C23.85 22.285 24.312 22.773 24.103 23.431C24.1227 23.431 24.1424 23.4304 24.164 23.4297H24.1641C24.2149 23.4281 24.2768 23.4261 24.377 23.431C24.715 22.33 23.446 21.608 22.378 21.165C22.567 20.384 22.535 19.596 22.352 18.841C21.962 17.194 20.881 15.729 20.061 15C19.911 14.994 19.924 15.124 20.23 15.423C20.985 16.12 22.645 18.626 21.747 20.95C21.493 20.885 21.252 20.853 21.037 20.859C20.692 18.965 19.898 17.396 19.501 16.654C18.752 15.261 17.581 12.403 17.079 10.424C16.786 10.84 16.272 11.198 15.628 11.4C15.4296 11.4636 15.2229 11.5951 14.9922 11.742L14.9922 11.742L14.9921 11.742C14.8669 11.8217 14.7347 11.9058 14.593 11.986C13.688 12.507 12.64 12.559 11.832 11.908C11.7256 11.823 11.6278 11.7345 11.5322 11.6478L11.5321 11.6477L11.5321 11.6477C11.3644 11.4957 11.203 11.3495 11.012 11.238C10.908 11.179 10.68 11.023 10.608 10.971C10.5007 13.0014 9.36004 15.4629 8.52577 17.2632L8.52572 17.2633C8.34919 17.6443 8.18638 17.9956 8.04998 18.307C7.50998 19.59 7.19098 20.963 7.15198 22.311C5.73298 20.416 6.76798 17.995 7.32098 16.947C7.93898 15.801 8.03698 15.482 7.88698 15.593C7.32698 16.504 6.45498 17.956 6.11698 19.447C5.94098 20.221 5.90798 21.009 6.13598 21.738C6.36398 22.467 6.85898 23.138 7.73798 23.684C7.73798 23.684 9.35198 24.615 10.231 25.8C10.713 26.451 10.862 27.017 10.713 27.421C10.55 27.857 10.088 28 9.62498 28ZM27.319 28.528C27.2899 29.077 26.6133 29.4013 25.7656 29.8075C24.9257 30.21 23.9177 30.693 23.205 31.555C22.346 32.577 21.291 33.143 20.367 33.215C19.442 33.287 18.642 32.902 18.173 31.958C17.867 31.236 18.017 30.455 18.245 29.595C18.3168 29.3187 18.3991 29.04 18.4805 28.7645L18.4805 28.7645C18.6712 28.1189 18.8567 27.491 18.889 26.952C18.941 25.963 19 25.097 19.162 24.433C19.332 23.763 19.592 23.313 20.054 23.059C20.0638 23.0527 20.075 23.048 20.0861 23.0433C20.0977 23.0385 20.1093 23.0337 20.119 23.027C20.171 23.886 20.595 24.759 21.343 24.947C22.163 25.162 23.342 24.459 23.843 23.886L23.9391 23.8828C24.4774 23.864 24.8899 23.8497 25.314 24.218C25.6421 24.4998 25.7559 25.0054 25.8743 25.5309L25.8743 25.5309C25.9886 26.0386 26.1071 26.5649 26.427 26.926C27.118 27.682 27.339 28.196 27.319 28.528ZM10.7258 10.0451C10.7145 10.0344 10.7036 10.0241 10.693 10.014C10.465 9.83103 10.491 9.58403 10.582 9.59103C10.6818 9.60311 10.7287 9.69156 10.7745 9.77804C10.8007 9.8276 10.8266 9.87651 10.862 9.91003C10.8775 9.92459 10.8935 9.9397 10.9101 9.95531C11.0334 10.0716 11.1859 10.2153 11.364 10.359C11.767 10.678 12.308 10.99 12.985 10.99C13.662 10.99 14.449 10.6 14.931 10.326C15.1366 10.2085 15.3831 10.0246 15.6149 9.8517C15.6908 9.79506 15.7652 9.73959 15.836 9.68803C15.93 9.6187 15.9816 9.54485 16.024 9.48433C16.0812 9.40255 16.1214 9.34511 16.226 9.35603C16.409 9.37603 16.279 9.56503 16.025 9.78603C15.771 10.007 15.38 10.294 15.061 10.463C15.0471 10.4704 15.0331 10.4777 15.0191 10.4851C14.4233 10.7995 13.7286 11.166 12.991 11.166C12.242 11.166 11.644 10.814 11.214 10.476C11.0166 10.3208 10.852 10.1648 10.7258 10.0451Z"
+            class="fill-current"
+          />
+        </svg>
+        <div class="text-gray-400">Linux</div>
+      </div>
+      <div
+        class="
+          border-l border-gray-200
+          flex flex-col
+          items-center
+          justify-center
+          py-4
+          bg-gray-100
+          tab
+          cursor-pointer
+          hover:bg-gray-200
+        "
+        style="box-shadow: 0px -8px 30px rbga(0, 0, 0, 0.06)"
+        id="docker"
+      >
+        <svg
+          class="mb-2 w-4 h-4 md:w-9 md:h-8 text-gray-400"
+          viewBox="0 0 30 34"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M15.116 0.332031H18.558V3.49303H15.116V0.332031ZM15.116 10.971H18.558V7.87803H15.116V10.971ZM22.631 7.87303H19.188V10.966H22.631V7.87303ZM11.048 4.11803H14.491V7.24803H11.048V4.11803ZM18.558 4.11803H15.116V7.24803H18.558V4.11803ZM29.167 8.88803C30.495 8.63803 32.224 8.82103 32.974 9.32603L33.667 9.78903C33.6477 9.82862 33.622 9.88172 33.5926 9.94251C33.4714 10.1934 33.2868 10.5754 33.224 10.68C31.99 13.039 29.584 13.055 28.469 13.034C25.631 19.893 19.563 23.668 11.366 23.668C7.57998 23.668 4.68398 22.507 2.75198 20.221C0.762976 17.862 0.00797561 14.424 0.460976 11.779H23.1C24.277 11.8 25.167 11.466 25.62 11.221C24.594 9.64903 24.855 7.26303 25.813 5.81603L26.297 5.08603L27.026 5.57103C28.297 6.55003 28.995 7.63803 29.167 8.88803ZM6.35598 7.87303H2.91898V10.966H6.36098V7.87303H6.35598ZM6.98098 7.87303H10.423V10.966H6.98098V7.87303ZM14.491 7.87303H11.048V10.966H14.491V7.87303ZM6.98098 4.11803H10.423V7.24803H6.98098V4.11803Z"
+            class="fill-current"
+          />
+        </svg>
+        <div class="text-gray-400">Docker</div>
+      </div>
+      <div
+        class="
+          border-l border-gray-200
+          flex flex-col
+          items-center
+          justify-center
+          py-4
+          bg-gray-100
+          tab
+          rounded-tr-lg
+          cursor-pointer
+          hover:bg-gray-200
+        "
+        style="box-shadow: 0px -8px 30px rbga(0, 0, 0, 0.06)"
+        id="other"
+      >
+        <svg
+          class="mb-2 w-4 h-4 md:w-7 md:h-8 text-gray-400"
+          viewBox="0 0 30 34"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M7.20995 2.89504C5.04995 1.65004 1.97995 0.265042 0.999949 1.26304C0.00994933 2.26604 1.41995 5.45804 2.65995 7.65204C3.75995 5.70604 5.32995 4.06804 7.20995 2.89504ZM18.7399 4.59404C19.4 3.92304 25.6199 -0.0609576 27.0299 1.37804C28.4399 2.81004 24.5199 9.12104 23.8599 9.79204C23.1999 10.463 21.5199 9.84604 20.1099 8.40804C18.6899 6.97504 18.0799 5.26404 18.7399 4.59404ZM24.7099 10.874C25.0399 10.548 25.07 9.97904 24.8699 9.29604C25.07 8.96404 25.2899 8.58304 25.5199 8.16004C26.57 10.052 27.1699 12.234 27.1699 14.555C27.1699 21.755 21.4299 27.588 14.3399 27.588C7.24995 27.588 1.50995 21.749 1.50995 14.555C1.50995 7.35604 7.24995 1.52304 14.3399 1.52304C16.4799 1.52304 18.49 2.05504 20.2599 2.99204C19.8299 3.23304 19.4299 3.47504 19.0899 3.69304C17.5499 3.40904 17.1399 4.68404 18.2099 6.63704C19.51 9.24204 23.51 12.101 24.7099 10.874Z"
+            class="fill-current"
+          />
+        </svg>
+        <div class="text-gray-400">Other</div>
+      </div>
+    </div>
+    <div class="dl-content" id="macos-content">
+      <div
+        class="
+          px-4
+          md:px-8
+          lg:px-16
+          pt-4
+          md:pt-10
+          pb-8
+          md:pb-12
+          flex flex-col
+          justify-center
+        "
+      >
+        <div class="pb-4 flex-grow">Install ngrok via Homebrew</div>
+        <div class="flex flex-row flex-grow">
+          <div class="w-full rounded p-3" style="background-color: #f1eff6">
+            <span style="color: #fa8080" class="mr-2 ml-2 select-none">$</span>
+            <span style="font-family: 'Courier'"
+              >brew install ngrok/ngrok/ngrok</span
+            >
+          </div>
+          <button
+            onclick="copyToClipboard(this)"
+            class="
+              cursor-pointer
+              ml-2
+              rounded
+              flex
+              items-center
+              justify-center
+              w-14
+              bg-gray-100
+              hover:bg-gray-200
+            "
+          >
+            <img
+              class="w-4 h-4 md:w-6 md:h-6"
+              src="/static/img/v2/copy-paste.svg"
+            />
+          </button>
+          <div class="copied">
+            <div class="copied-text">Copied!</div>
+          </div>
+        </div>
+      </div>
+      <div class="px-2 lg:px-16 flex flex-col items-center border-t">
+        <div
+          class="bg-white text-center w-8 -m-2.5 lg:-m-4"
+          style="color: #5a5a63"
+        >
+          or
+        </div>
+      </div>
+      <div
+        class="px-4 md:px-8 lg:px-16 py-4 md:py-10 flex flex-col justify-center"
+      >
+        <div class="pb-4 flex-grow">Download ZIP file</div>
+        <div id="macos-dropdown-picker" class="bg-white mb-4 relative">
+          <div class="flex flex-row grid grid-col-1 sm:grid-col-2 gap-0">
+            <div
+              onclick="showDropdown('macos-dropdown')"
+              class="
+                cursor-pointer
+                col-span-full
+                sm:col-span-1
+                md:col-span-2
+                flex flex-row
+                justify-between
+                items-center
+                border border-gray-300
+                hover:bg-gray-100
+              "
+            >
+              <div
+                class="
+                  flex flex-row
+                  justify-center
+                  items-center
+                  text-black
+                  py-3
+                  px-4
+                "
+              >
+                <svg
+                  class="w-4 h-5 text-black"
+                  viewBox="0 0 30 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M21.9897 0.355881C22.0504 1.16376 22.2137 3.34092 20.202 5.72901C18.743 7.43301 16.972 8.43001 15.03 8.28101C14.866 6.22701 15.633 4.40401 16.935 2.93101C18.118 1.55401 20.194 0.438008 21.988 0.333008L21.9897 0.355881ZM28.135 11.638C25.634 13.156 24.399 15.217 24.414 17.948C24.414 17.9519 24.4138 17.959 24.4135 17.9693C24.4035 18.331 24.2864 22.5658 29.006 24.787C28.098 27.526 24.987 33.613 21.37 33.665C20.3568 33.665 19.5462 33.3523 18.7106 33.0298C17.8217 32.6869 16.9045 32.333 15.685 32.333C14.3648 32.333 13.371 32.7098 12.44 33.0628C11.6498 33.3624 10.9049 33.6448 10.044 33.665C6.45702 33.777 3.01902 27.079 2.06602 24.348C1.35202 22.27 0.994019 20.255 0.994019 18.306C0.994019 11.705 5.40702 8.46001 9.56002 8.39301C10.7109 8.39301 12.0426 8.87409 13.1802 9.28508C14.0285 9.59153 14.7689 9.85901 15.246 9.85901C15.631 9.85901 16.2596 9.6265 17.031 9.34116C18.3753 8.84391 20.1533 8.18621 21.832 8.31901C24.622 8.53401 26.736 9.63601 28.135 11.638Z"
+                    class="fill-current"
+                  />
+                </svg>
+                <div class="ml-2.5" id="macos-selected">
+                  Intel (AMD64)
+                </div>
+              </div>
+              <div class="flex flex-row h-full items-center">
+                <div class="w-0.5 border-l border-gray-300 h-5/6"></div>
+                <button
+                  type="button"
+                  class="
+                    justify-center
+                    items-center
+                    text-black
+                    h-full
+                    px-4
+                    hover:bg-gray-100
+                  "
+                >
+                  <img src="/static/img/v2/chevron-down.svg" />
+                </button>
+              </div>
+            </div>
+            <a
+              id="macos-dl-link"
+              class="
+                bg-color-transition
+                download-btn2
+                mt-2
+                sm:mt-0
+                ml-0
+                sm:ml-2
+                py-3
+                px-4
+                col-span-full
+                sm:col-span-1
+                flex flex-row
+                items-center
+                justify-center
+                cursor-pointer
+              "
+              href="https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-darwin-amd64.zip"
+            >
+              <svg
+                width="32"
+                height="23"
+                viewBox="0 0 25 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M15.443 16.357V14.785H19.994C22.133 14.785 23.227 13.691 23.227 12.188C23.227 10.498 22.084 9.38502 20.307 8.99402C20.189 8.97502 20.141 8.89602 20.15 8.77002C20.189 8.31102 20.219 7.78302 20.189 7.34402C20.023 4.43402 17.807 1.89502 14.604 1.89502C12.074 1.89502 10.619 3.29102 9.67199 4.98002C9.61299 5.08802 9.54499 5.10702 9.42799 5.06802C7.41599 4.48202 5.25799 5.31202 5.25799 8.31102C5.25799 8.43802 5.20899 8.51602 5.07199 8.51602C3.00199 8.51602 1.81999 9.90202 1.81999 11.768C1.81999 13.447 3.03099 14.785 5.34599 14.785H9.69099V16.357H5.35499C2.15199 16.357 0.247986 14.307 0.247986 11.768C0.247986 9.46302 1.62499 7.65602 3.83199 7.31402C3.88099 4.57002 6.68399 2.85202 8.89999 3.44702C10.072 1.73802 11.957 0.322021 14.604 0.322021C18.598 0.322021 21.732 3.46702 21.713 7.82202C23.617 8.59402 24.799 10.215 24.799 12.188C24.799 14.551 23.002 16.357 20.004 16.357H15.443ZM13.129 21.895C12.924 22.08 12.768 22.158 12.572 22.158C12.367 22.158 12.211 22.08 12.006 21.895L8.70499 18.809C8.54899 18.672 8.47099 18.506 8.47099 18.291C8.47099 17.9 8.76399 17.607 9.17399 17.607C9.35899 17.607 9.56399 17.695 9.71099 17.842L11.195 19.326L11.85 20.02L11.791 18.555V10.176C11.791 9.76602 12.152 9.41402 12.572 9.41402C12.992 9.41402 13.344 9.76602 13.344 10.176V18.555L13.285 20.01L13.939 19.326L15.424 17.842C15.57 17.695 15.766 17.607 15.951 17.607C16.352 17.607 16.664 17.9 16.664 18.291C16.664 18.506 16.586 18.672 16.43 18.809L13.129 21.895Z"
+                  fill="currentColor"
+                />
+              </svg>
+              Download
+            </a>
+          </div>
+          <ul
+            id="macos-dropdown"
+            class="
+              hidden
+              absolute
+              z-10
+              left-0
+              top-10
+              sm:top-16
+              md:top-12
+              mt-2
+              w-full
+              sm:w-1/2
+              md:w-2/3
+              col-span-2
+              shadow-lg
+              bg-white
+              border border-gray-300
+              -mr-2
+            "
+          >
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="darwin_amd64"
+            >
+              Intel (AMD64)
+            </li>
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="darwin_arm64"
+            >
+              Apple Silicon (ARM64)
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="px-4 md:px-8 lg:px-16 pb-8 md:pb-12 flex flex-col justify-center"
+      >
+        <div class="pb-4 flex-grow">Then unzip ngrok from the terminal</div>
+        <div class="flex flex-row flex-grow">
+          <div class="w-full rounded p-3 whitespace-nowrap overflow-y-hidden overflow-x-scroll" style="background-color: #f1eff6">
+            <span style="color: #fa8080" class="mr-2 ml-2 select-none">$</span>
+            <span id="macos-extract" style="font-family: 'Courier'"
+              >sudo unzip ~/Downloads/ngrok-stable-darwin-amd64.zip -d /usr/local/bin</span
+            >
+          </div>
+          <button
+            onclick="copyToClipboard(this)"
+            class="
+              cursor-pointer
+              ml-2
+              rounded
+              flex
+              items-center
+              justify-center
+              w-14
+              bg-gray-100
+              hover:bg-gray-200
+            "
+          >
+            <img
+              class="w-4 h-4 md:w-6 md:h-6"
+              src="/static/img/v2/copy-paste.svg"
+            />
+          </button>
+          <div class="copied">
+            <div class="copied-text">Copied!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dl-content hidden" id="windows-content">
+      <div
+        class="
+          px-4
+          md:px-8
+          lg:px-16
+          pt-4
+          md:pt-10
+          pb-8
+          md:pb-12
+          flex flex-col
+          justify-center
+        "
+      >
+        <div class="pb-4 flex-grow">Install ngrok via Chocolatey</div>
+        <div class="flex flex-row flex-grow">
+          <div class="w-full rounded p-3" style="background-color: #f1eff6">
+            <span style="color: #fa8080" class="mr-2 ml-2 select-none">$</span>
+            <span style="font-family: 'Courier'">choco install ngrok</span>
+          </div>
+          <button
+            onclick="copyToClipboard(this)"
+            class="
+              cursor-pointer
+              ml-2
+              rounded
+              flex
+              items-center
+              justify-center
+              w-14
+              bg-gray-100
+              hover:bg-gray-200
+            "
+          >
+            <img
+              class="w-4 h-4 md:w-6 md:h-6"
+              src="/static/img/v2/copy-paste.svg"
+            />
+          </button>
+          <div class="copied">
+            <div class="copied-text">Copied!</div>
+          </div>
+        </div>
+      </div>
+      <div class="px-2 lg:px-16 flex flex-col items-center border-t">
+        <div
+          class="bg-white text-center w-8 -m-2.5 lg:-m-4"
+          style="color: #5a5a63"
+        >
+          or
+        </div>
+      </div>
+      <div
+        class="px-4 md:px-8 lg:px-16 pt-4 md:pt-10 flex flex-col justify-center"
+      >
+        <div class="pb-4 flex-grow">Download ZIP file</div>
+        <div id="windows-dropdown-picker" class="bg-white mb-4 relative">
+          <div class="flex flex-row grid grid-col-1 sm:grid-col-2 gap-0">
+            <div
+              onclick="showDropdown('windows-dropdown')"
+              class="
+                cursor-pointer
+                col-span-full
+                sm:col-span-1
+                md:col-span-2
+                flex flex-row
+                justify-between
+                items-center
+                border border-gray-300
+                hover:bg-gray-100
+              "
+            >
+              <div
+                class="
+                  flex flex-row
+                  justify-center
+                  items-center
+                  text-black
+                  py-3
+                  px-4
+                "
+              >
+                <svg
+                  class="w-4 h-5 text-black"
+                  viewBox="0 0 30 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M15.497 16.241V2.84101L33.667 0.333008V16.241H15.497ZM13.994 3.04201L0.333008 4.92401V16.241H13.994V3.04201ZM13.994 30.958L0.333008 29.076V17.923H13.994V30.958ZM15.497 31.159L33.667 33.667V17.923H15.497V31.159Z"
+                    class="fill-current"
+                  />
+                </svg>
+                <div class="ml-2.5" id="windows-selected">Windows (64-bit)</div>
+              </div>
+              <div class="flex flex-row h-full items-center">
+                <div class="w-0.5 border-l border-gray-300 h-5/6"></div>
+                <button
+                  type="button"
+                  class="
+                    justify-center
+                    items-center
+                    text-black
+                    h-full
+                    px-4
+                    hover:bg-gray-100
+                  "
+                >
+                  <img src="/static/img/v2/chevron-down.svg" />
+                </button>
+              </div>
+            </div>
+            <a
+              id="windows-dl-link"
+              class="
+                bg-color-transition
+                download-btn2
+                mt-2
+                sm:mt-0
+                ml-0
+                sm:ml-2
+                py-3
+                px-4
+                col-span-full
+                sm:col-span-1
+                flex flex-row
+                items-center
+                justify-center
+                cursor-pointer
+              "
+              href="https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip"
+            >
+              <svg
+                width="32"
+                height="23"
+                viewBox="0 0 25 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M15.443 16.357V14.785H19.994C22.133 14.785 23.227 13.691 23.227 12.188C23.227 10.498 22.084 9.38502 20.307 8.99402C20.189 8.97502 20.141 8.89602 20.15 8.77002C20.189 8.31102 20.219 7.78302 20.189 7.34402C20.023 4.43402 17.807 1.89502 14.604 1.89502C12.074 1.89502 10.619 3.29102 9.67199 4.98002C9.61299 5.08802 9.54499 5.10702 9.42799 5.06802C7.41599 4.48202 5.25799 5.31202 5.25799 8.31102C5.25799 8.43802 5.20899 8.51602 5.07199 8.51602C3.00199 8.51602 1.81999 9.90202 1.81999 11.768C1.81999 13.447 3.03099 14.785 5.34599 14.785H9.69099V16.357H5.35499C2.15199 16.357 0.247986 14.307 0.247986 11.768C0.247986 9.46302 1.62499 7.65602 3.83199 7.31402C3.88099 4.57002 6.68399 2.85202 8.89999 3.44702C10.072 1.73802 11.957 0.322021 14.604 0.322021C18.598 0.322021 21.732 3.46702 21.713 7.82202C23.617 8.59402 24.799 10.215 24.799 12.188C24.799 14.551 23.002 16.357 20.004 16.357H15.443ZM13.129 21.895C12.924 22.08 12.768 22.158 12.572 22.158C12.367 22.158 12.211 22.08 12.006 21.895L8.70499 18.809C8.54899 18.672 8.47099 18.506 8.47099 18.291C8.47099 17.9 8.76399 17.607 9.17399 17.607C9.35899 17.607 9.56399 17.695 9.71099 17.842L11.195 19.326L11.85 20.02L11.791 18.555V10.176C11.791 9.76602 12.152 9.41402 12.572 9.41402C12.992 9.41402 13.344 9.76602 13.344 10.176V18.555L13.285 20.01L13.939 19.326L15.424 17.842C15.57 17.695 15.766 17.607 15.951 17.607C16.352 17.607 16.664 17.9 16.664 18.291C16.664 18.506 16.586 18.672 16.43 18.809L13.129 21.895Z"
+                  fill="currentColor"
+                />
+              </svg>
+              Download
+            </a>
+          </div>
+          <ul
+            id="windows-dropdown"
+            class="
+              hidden
+              absolute
+              z-10
+              left-0
+              top-10
+              sm:top-16
+              md:top-12
+              mt-2
+              w-full
+              sm:w-1/2
+              md:w-2/3
+              col-span-2
+              shadow-lg
+              bg-white
+              border border-gray-300
+              -mr-2
+            "
+          >
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="windows_amd64"
+            >
+              Windows (64-bit)
+            </li>
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="windows_386"
+            >
+              Windows (32-bit)
+            </li>
+          </ul>
+        </div>
+        <div class="pt-4 pb-10 flex-grow text-gray-400">
+          Double-click .zip file once downloaded
+        </div>
+      </div>
+    </div>
+    <div class="dl-content hidden" id="linux-content">
+      <div
+        class="px-4 md:px-8 lg:px-16 pt-4 md:pt-10 flex flex-col justify-center"
+      >
+        <div class="pb-4 flex-grow">Download TGZ file</div>
+        <div id="linux-dropdown-picker" class="bg-white mb-4 relative">
+          <div class="flex flex-row grid grid-col-1 sm:grid-col-2 gap-0">
+            <div
+              onclick="showDropdown('linux-dropdown')"
+              class="
+                cursor-pointer
+                col-span-full
+                sm:col-span-1
+                md:col-span-2
+                flex flex-row
+                justify-between
+                items-center
+                border border-gray-300
+                hover:bg-gray-100
+              "
+            >
+              <div
+                class="
+                  flex flex-row
+                  justify-center
+                  items-center
+                  text-black
+                  py-3
+                  px-4
+                "
+              >
+                <svg
+                  class="w-4 h-5 text-black"
+                  viewBox="0 0 30 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M26.753 26.62C26.526 26.3678 26.4147 25.8944 26.2951 25.3851L26.284 25.338C26.167 24.811 26.03 24.244 25.601 23.88C25.516 23.808 25.431 23.743 25.34 23.691C25.256 23.639 25.165 23.593 25.073 23.561C25.672 21.784 25.438 20.013 24.833 18.411C24.09 16.452 22.795 14.74 21.805 13.568L21.7552 13.5054C20.66 12.1282 19.6123 10.8108 19.631 8.88103C19.6323 8.76142 19.6341 8.6377 19.6358 8.5104L19.6359 8.50886C19.679 5.45563 19.7513 0.339787 14.697 0.334028C9.04692 0.322162 9.3827 5.16607 9.57244 7.9033C9.60656 8.39548 9.63596 8.81955 9.62498 9.13503C9.51498 10.658 9.20898 11.856 8.16098 13.347C6.92998 14.811 5.19898 17.175 4.37898 19.642C3.98798 20.807 3.80598 21.992 3.97498 23.112C3.72946 23.3309 3.51897 23.6181 3.31927 23.8906L3.31926 23.8906L3.31925 23.8906C3.17491 24.0876 3.03621 24.2768 2.89398 24.427C2.66128 24.6648 2.33848 24.7762 1.97823 24.9006L1.97814 24.9006L1.97813 24.9006C1.91578 24.9221 1.8523 24.944 1.78798 24.967C1.35098 25.123 0.875984 25.357 0.582984 25.911C0.446984 26.165 0.400984 26.438 0.400984 26.718C0.400984 26.972 0.439984 27.232 0.478984 27.486L0.49438 27.5895C0.5673 28.0782 0.634696 28.5298 0.530984 28.84C0.192984 29.778 0.146984 30.429 0.387984 30.904C0.634984 31.379 1.12998 31.587 1.69598 31.705C2.05174 31.7789 2.44754 31.8236 2.86057 31.8702C3.756 31.9712 4.73236 32.0814 5.55698 32.518C6.84598 33.195 8.15398 33.436 9.19598 33.195C9.95098 33.026 10.569 32.57 10.882 31.88C11.2615 31.8772 11.6592 31.8008 12.1208 31.712L12.1208 31.712L12.1208 31.712C12.6494 31.6104 13.2616 31.4927 14.026 31.451C14.4806 31.4145 14.9896 31.488 15.5462 31.5684C16.177 31.6595 16.8692 31.7595 17.613 31.718C17.652 31.867 17.704 32.017 17.776 32.154V32.16C18.316 33.247 19.325 33.742 20.399 33.658C21.48 33.573 22.619 32.941 23.544 31.841C24.1665 31.0905 25.0725 30.6487 25.8927 30.2487L25.8928 30.2487C26.2387 30.0801 26.5693 29.9188 26.857 29.745C27.339 29.452 27.729 29.088 27.762 28.554C27.788 28.02 27.476 27.428 26.753 26.62ZM13.8515 8.40703C13.8298 8.38936 13.8082 8.37182 13.785 8.36003C13.7602 8.34642 13.7281 8.33914 13.696 8.33186C13.6362 8.31829 13.5764 8.30472 13.564 8.25003C13.551 8.22303 13.577 8.19103 13.603 8.17803C13.707 8.11903 13.85 8.13903 13.961 8.18403L13.9694 8.18786C14.0546 8.22686 14.1816 8.28496 14.169 8.37303C14.163 8.44503 14.052 8.47103 13.981 8.47103C13.9302 8.47103 13.8906 8.43881 13.8515 8.40703ZM12.4882 8.4073C12.4493 8.439 12.41 8.47103 12.36 8.47103C12.295 8.47703 12.184 8.44503 12.177 8.38003C12.1645 8.29232 12.2913 8.23434 12.3766 8.19534L12.386 8.19103C12.496 8.14503 12.64 8.12603 12.744 8.18403C12.77 8.19703 12.796 8.23003 12.783 8.25603C12.7664 8.30575 12.7076 8.31849 12.6484 8.3313C12.6148 8.33858 12.5811 8.34589 12.555 8.36003C12.5316 8.37188 12.51 8.38953 12.4882 8.4073L12.4882 8.4073ZM16.838 5.99103C16.2 4.59703 14.612 4.57103 13.974 6.01703C13.766 6.48503 13.72 6.98703 13.785 7.43603C14.02 7.49403 14.365 7.59203 14.632 7.72203C14.495 6.92803 14.925 6.19203 15.4 6.22503C15.979 6.24403 16.305 7.23403 15.992 8.00203C15.954 8.09261 15.8744 8.16878 15.8062 8.23406L15.8061 8.23408L15.8061 8.23413C15.781 8.25819 15.7574 8.28076 15.738 8.30203C16.174 8.45103 16.454 8.56903 16.558 8.62103C17.073 8.00203 17.262 6.91503 16.838 5.99103ZM11.325 5.26803C11.982 5.26803 12.679 6.19203 12.568 7.44903C12.34 7.51403 12.106 7.61203 11.904 7.74803C11.982 7.16903 11.689 6.44003 11.279 6.47203C10.732 6.51803 10.641 7.85203 11.162 8.30203C11.1704 8.30875 11.1787 8.31352 11.1856 8.31752C11.195 8.32293 11.202 8.32696 11.2036 8.33253C11.2083 8.34871 11.1678 8.37795 11.0096 8.49197L11.0096 8.49199L11.0096 8.49201L11.0095 8.49203L11.0095 8.49204L11.0094 8.49213L11.0091 8.49232L11.009 8.49243C10.9497 8.53517 10.874 8.58978 10.778 8.66003C9.76198 7.70903 10.094 5.26803 11.325 5.26803ZM10.797 8.955L10.7963 8.95551C10.6792 9.04173 10.5558 9.13256 10.439 9.21903C10.166 9.43403 10.075 9.70103 10.166 10.02C10.263 10.339 10.563 10.704 11.123 11.016C11.3507 11.1505 11.5312 11.3149 11.708 11.4759C11.9256 11.6741 12.1375 11.8672 12.425 11.993C12.594 12.064 12.796 12.116 13.05 12.129C13.836 12.1763 14.3504 11.8445 14.8154 11.5446C15.0585 11.3878 15.2881 11.2397 15.536 11.159C16.298 10.919 16.845 10.443 17.014 9.98103C17.222 9.42803 16.877 9.02403 16.331 8.79603C16.0206 8.66152 15.7834 8.58035 15.5819 8.51143L15.5819 8.51143L15.5819 8.51142L15.5819 8.51141L15.5818 8.5114C15.3056 8.4169 15.0967 8.34543 14.859 8.19103C14.189 7.76103 13.636 7.61203 13.173 7.61203C12.3183 7.61203 11.7665 8.14287 11.4439 8.45319C11.4128 8.48307 11.3839 8.51091 11.357 8.53603C11.3343 8.55947 11.0845 8.74331 10.797 8.955ZM10.654 30.962C10.478 33.247 7.79598 33.202 5.75198 32.134C4.81482 31.639 3.74453 31.5226 2.82928 31.4231C1.84403 31.316 1.03845 31.2285 0.771984 30.709C0.615984 30.403 0.615984 29.882 0.940984 28.99V28.977C1.07989 28.5391 1.00353 28.0604 0.930059 27.5999C0.920491 27.5399 0.910972 27.4803 0.901984 27.421C0.823984 26.913 0.784984 26.445 0.960984 26.119C1.18898 25.683 1.51398 25.527 1.92398 25.384C2.04043 25.3422 2.13958 25.3082 2.2266 25.2784C2.64103 25.1363 2.78014 25.0886 3.19998 24.739C3.38893 24.5432 3.55085 24.3201 3.70751 24.1043C3.84769 23.9111 3.98365 23.7238 4.13098 23.567C4.46298 23.209 4.78198 23.04 5.28298 23.118C5.81098 23.196 6.26598 23.561 6.70898 24.16L7.98498 26.477C8.21397 26.9572 8.65852 27.5142 9.12047 28.093C9.90523 29.0762 10.7402 30.1223 10.654 30.962ZM9.62498 28C9.93798 28.391 10.296 28.847 10.563 29.276C13.011 30.949 15.914 30.298 18.004 28.808L18.0386 28.689C18.2339 28.0179 18.4158 27.3932 18.446 26.92C18.498 25.93 18.551 25.052 18.733 24.322C18.935 23.502 19.338 22.819 20.126 22.545C20.276 21.172 21.343 21.172 22.619 21.731C23.85 22.285 24.312 22.773 24.103 23.431C24.1227 23.431 24.1424 23.4304 24.164 23.4297H24.1641C24.2149 23.4281 24.2768 23.4261 24.377 23.431C24.715 22.33 23.446 21.608 22.378 21.165C22.567 20.384 22.535 19.596 22.352 18.841C21.962 17.194 20.881 15.729 20.061 15C19.911 14.994 19.924 15.124 20.23 15.423C20.985 16.12 22.645 18.626 21.747 20.95C21.493 20.885 21.252 20.853 21.037 20.859C20.692 18.965 19.898 17.396 19.501 16.654C18.752 15.261 17.581 12.403 17.079 10.424C16.786 10.84 16.272 11.198 15.628 11.4C15.4296 11.4636 15.2229 11.5951 14.9922 11.742L14.9922 11.742L14.9921 11.742C14.8669 11.8217 14.7347 11.9058 14.593 11.986C13.688 12.507 12.64 12.559 11.832 11.908C11.7256 11.823 11.6278 11.7345 11.5322 11.6478L11.5321 11.6477L11.5321 11.6477C11.3644 11.4957 11.203 11.3495 11.012 11.238C10.908 11.179 10.68 11.023 10.608 10.971C10.5007 13.0014 9.36004 15.4629 8.52577 17.2632L8.52572 17.2633C8.34919 17.6443 8.18638 17.9956 8.04998 18.307C7.50998 19.59 7.19098 20.963 7.15198 22.311C5.73298 20.416 6.76798 17.995 7.32098 16.947C7.93898 15.801 8.03698 15.482 7.88698 15.593C7.32698 16.504 6.45498 17.956 6.11698 19.447C5.94098 20.221 5.90798 21.009 6.13598 21.738C6.36398 22.467 6.85898 23.138 7.73798 23.684C7.73798 23.684 9.35198 24.615 10.231 25.8C10.713 26.451 10.862 27.017 10.713 27.421C10.55 27.857 10.088 28 9.62498 28ZM27.319 28.528C27.2899 29.077 26.6133 29.4013 25.7656 29.8075C24.9257 30.21 23.9177 30.693 23.205 31.555C22.346 32.577 21.291 33.143 20.367 33.215C19.442 33.287 18.642 32.902 18.173 31.958C17.867 31.236 18.017 30.455 18.245 29.595C18.3168 29.3187 18.3991 29.04 18.4805 28.7645L18.4805 28.7645C18.6712 28.1189 18.8567 27.491 18.889 26.952C18.941 25.963 19 25.097 19.162 24.433C19.332 23.763 19.592 23.313 20.054 23.059C20.0638 23.0527 20.075 23.048 20.0861 23.0433C20.0977 23.0385 20.1093 23.0337 20.119 23.027C20.171 23.886 20.595 24.759 21.343 24.947C22.163 25.162 23.342 24.459 23.843 23.886L23.9391 23.8828C24.4774 23.864 24.8899 23.8497 25.314 24.218C25.6421 24.4998 25.7559 25.0054 25.8743 25.5309L25.8743 25.5309C25.9886 26.0386 26.1071 26.5649 26.427 26.926C27.118 27.682 27.339 28.196 27.319 28.528ZM10.7258 10.0451C10.7145 10.0344 10.7036 10.0241 10.693 10.014C10.465 9.83103 10.491 9.58403 10.582 9.59103C10.6818 9.60311 10.7287 9.69156 10.7745 9.77804C10.8007 9.8276 10.8266 9.87651 10.862 9.91003C10.8775 9.92459 10.8935 9.9397 10.9101 9.95531C11.0334 10.0716 11.1859 10.2153 11.364 10.359C11.767 10.678 12.308 10.99 12.985 10.99C13.662 10.99 14.449 10.6 14.931 10.326C15.1366 10.2085 15.3831 10.0246 15.6149 9.8517C15.6908 9.79506 15.7652 9.73959 15.836 9.68803C15.93 9.6187 15.9816 9.54485 16.024 9.48433C16.0812 9.40255 16.1214 9.34511 16.226 9.35603C16.409 9.37603 16.279 9.56503 16.025 9.78603C15.771 10.007 15.38 10.294 15.061 10.463C15.0471 10.4704 15.0331 10.4777 15.0191 10.4851C14.4233 10.7995 13.7286 11.166 12.991 11.166C12.242 11.166 11.644 10.814 11.214 10.476C11.0166 10.3208 10.852 10.1648 10.7258 10.0451Z"
+                    class="fill-current"
+                  />
+                </svg>
+                <div class="ml-2.5" id="linux-selected">x86-64</div>
+              </div>
+              <div class="flex flex-row h-full items-center">
+                <div class="w-0.5 border-l border-gray-300 h-5/6"></div>
+                <button
+                  type="button"
+                  class="
+                    justify-center
+                    items-center
+                    text-black
+                    h-full
+                    px-4
+                    hover:bg-gray-100
+                  "
+                >
+                  <img src="/static/img/v2/chevron-down.svg" />
+                </button>
+              </div>
+            </div>
+            <a
+              id="linux-dl-link"
+              class="
+                bg-color-transition
+                download-btn2
+                mt-2
+                sm:mt-0
+                ml-0
+                sm:ml-2
+                py-3
+                px-4
+                col-span-full
+                sm:col-span-1
+                flex flex-row
+                items-center
+                justify-center
+                cursor-pointer
+              "
+              href="https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz"
+            >
+              <svg
+                width="32"
+                height="23"
+                viewBox="0 0 25 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M15.443 16.357V14.785H19.994C22.133 14.785 23.227 13.691 23.227 12.188C23.227 10.498 22.084 9.38502 20.307 8.99402C20.189 8.97502 20.141 8.89602 20.15 8.77002C20.189 8.31102 20.219 7.78302 20.189 7.34402C20.023 4.43402 17.807 1.89502 14.604 1.89502C12.074 1.89502 10.619 3.29102 9.67199 4.98002C9.61299 5.08802 9.54499 5.10702 9.42799 5.06802C7.41599 4.48202 5.25799 5.31202 5.25799 8.31102C5.25799 8.43802 5.20899 8.51602 5.07199 8.51602C3.00199 8.51602 1.81999 9.90202 1.81999 11.768C1.81999 13.447 3.03099 14.785 5.34599 14.785H9.69099V16.357H5.35499C2.15199 16.357 0.247986 14.307 0.247986 11.768C0.247986 9.46302 1.62499 7.65602 3.83199 7.31402C3.88099 4.57002 6.68399 2.85202 8.89999 3.44702C10.072 1.73802 11.957 0.322021 14.604 0.322021C18.598 0.322021 21.732 3.46702 21.713 7.82202C23.617 8.59402 24.799 10.215 24.799 12.188C24.799 14.551 23.002 16.357 20.004 16.357H15.443ZM13.129 21.895C12.924 22.08 12.768 22.158 12.572 22.158C12.367 22.158 12.211 22.08 12.006 21.895L8.70499 18.809C8.54899 18.672 8.47099 18.506 8.47099 18.291C8.47099 17.9 8.76399 17.607 9.17399 17.607C9.35899 17.607 9.56399 17.695 9.71099 17.842L11.195 19.326L11.85 20.02L11.791 18.555V10.176C11.791 9.76602 12.152 9.41402 12.572 9.41402C12.992 9.41402 13.344 9.76602 13.344 10.176V18.555L13.285 20.01L13.939 19.326L15.424 17.842C15.57 17.695 15.766 17.607 15.951 17.607C16.352 17.607 16.664 17.9 16.664 18.291C16.664 18.506 16.586 18.672 16.43 18.809L13.129 21.895Z"
+                  fill="currentColor"
+                />
+              </svg>
+              Download
+            </a>
+          </div>
+          <ul
+            id="linux-dropdown"
+            class="
+              hidden
+              absolute
+              z-10
+              left-0
+              top-10
+              sm:top-16
+              md:top-12
+              mt-2
+              w-full
+              sm:w-1/2
+              md:w-2/3
+              col-span-2
+              shadow-lg
+              bg-white
+              border border-gray-300
+              -mr-2
+            "
+          >
+            <li
+              class="
+                cursor-default
+                select-none
+                relative
+                pl-4
+                pt-2
+                pb-1
+                text-gray-500 text-sm
+              "
+            >
+              x86 - PCs & servers
+            </li>
+
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="linux_amd64"
+            >
+              x86-64
+            </li>
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="linux_386"
+            >
+              386
+            </li>
+            <li
+              class="
+                cursor-default
+                select-none
+                relative
+                pl-4
+                pt-2
+                pb-1
+                text-gray-500 text-sm
+              "
+            >
+              ARM - IoT Devices
+            </li>
+
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="linux_arm64"
+            >
+              ARM64
+            </li>
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="linux_arm"
+            >
+              ARM
+            </li>
+            <li
+              class="
+                cursor-default
+                select-none
+                relative
+                pl-4
+                pt-2
+                pb-1
+                text-gray-500 text-sm
+              "
+            >
+              mips - programmable routers
+            </li>
+
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="linux_mips"
+            >
+              mips
+            </li>
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="linux_mips64"
+            >
+              mips64
+            </li>
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="linux_mips64le"
+            >
+              mips64le
+            </li>
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="linux_mipsle"
+            >
+              mipsle
+            </li>
+            <li
+              class="
+                cursor-default
+                select-none
+                relative
+                pl-4
+                pt-2
+                pb-1
+                text-gray-500 text-sm
+              "
+            >
+              IBM && Power PC - mainframes
+            </li>
+
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="linux_ppc64"
+            >
+              Power PC
+            </li>
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="linux_ppc64le"
+            >
+              Power PC 64 LE
+            </li>
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="linux_s390x"
+            >
+              s390x
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="
+          px-4
+          md:px-8
+          lg:px-16
+          pt-4
+          md:pt-10
+          pb-8
+          md:pb-12
+          flex flex-col
+          justify-center
+        "
+      >
+        <div class="pb-4 flex-grow">Then extract ngrok from the terminal</div>
+        <div class="flex flex-row flex-grow">
+          <div class="w-full rounded p-3 whitespace-nowrap overflow-y-hidden overflow-x-scroll" style="background-color: #f1eff6">
+            <span style="color: #fa8080" class="mr-2 ml-2 select-none">$</span>
+            <span id="linux-extract" style="font-family: 'Courier'"
+              >sudo tar xvzf ~/Downloads/ngrok-stable-linux-amd64.tgz -C /usr/local/bin</span
+            >
+          </div>
+          <button
+            onclick="copyToClipboard(this)"
+            class="
+              cursor-pointer
+              ml-2
+              rounded
+              flex
+              items-center
+              justify-center
+              w-14
+              bg-gray-100
+              hover:bg-gray-200
+            "
+          >
+            <img
+              class="w-4 h-4 md:w-6 md:h-6"
+              src="/static/img/v2/copy-paste.svg"
+            />
+          </button>
+          <div class="copied">
+            <div class="copied-text">Copied!</div>
+          </div>
+        </div>
+      </div>
+      <div class="px-2 lg:px-16 flex flex-col items-center border-t">
+        <div
+          class="bg-white text-center w-8 -m-2.5 lg:-m-4"
+          style="color: #5a5a63"
+        >
+          or
+        </div>
+      </div>
+
+      <div
+        class="
+          px-4
+          md:px-8
+          lg:px-16
+          pt-4
+          md:pt-10
+          pb-8
+          md:pb-12
+          flex flex-col
+          justify-center
+        "
+      >
+        <div class="pb-4 flex-grow">Install ngrok via Apt</div>
+        <div class="flex flex-row flex-grow">
+          <div class="w-full rounded p-3 whitespace-nowrap overflow-y-hidden overflow-x-scroll" style="background-color: #f1eff6">
+            <span style="color: #fa8080" class="mr-2 ml-2 select-none">$</span>
+            <span style="font-family: 'Courier'" 
+              >curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null &&
+              echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list &&
+              sudo apt update && sudo apt install ngrok   
+              </span
+            >
+          </div>
+          <button
+            onclick="copyToClipboard(this)"
+            class="
+              cursor-pointer
+              ml-2
+              rounded
+              flex
+              items-center
+              justify-center
+              w-14
+              bg-gray-100
+              hover:bg-gray-200
+            "
+          >
+            <img
+              class="w-4 h-4 md:w-6 md:h-6"
+              src="/static/img/v2/copy-paste.svg"
+            />
+          </button>
+          <div class="copied">
+            <div class="copied-text">Copied!</div>
+          </div>
+        </div>
+      </div>
+      <div class="px-2 lg:px-16 flex flex-col items-center border-t">
+        <div
+          class="bg-white text-center w-8 -m-2.5 lg:-m-4"
+          style="color: #5a5a63"
+        >
+          or
+        </div>
+      </div>
+      <div
+        class="
+          px-4
+          md:px-8
+          lg:px-16
+          pt-4
+          md:pt-10
+          pb-8
+          md:pb-12
+          flex flex-col
+          justify-center
+        "
+      >
+        <div class="pb-4 flex-grow">Install ngrok via Snap</div>
+        <div class="flex flex-row flex-grow">
+          <div class="w-full rounded p-3" style="background-color: #f1eff6">
+            <span style="color: #fa8080" class="mr-2 ml-2 select-none">$</span>
+            <span style="font-family: 'Courier'">snap install ngrok</span>
+          </div>
+          <button
+            onclick="copyToClipboard(this)"
+            class="
+              cursor-pointer
+              ml-2
+              rounded
+              flex
+              items-center
+              justify-center
+              w-14
+              bg-gray-100
+              hover:bg-gray-200
+            "
+          >
+            <img
+              class="w-4 h-4 md:w-6 md:h-6"
+              src="/static/img/v2/copy-paste.svg"
+            />
+          </button>
+          <div class="copied">
+            <div class="copied-text">Copied!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dl-content hidden" id="docker-content">
+      <div
+        class="
+          px-4
+          md:px-8
+          lg:px-16
+          pt-4
+          md:pt-10
+          pb-8
+          md:pb-12
+          flex flex-col
+          justify-center
+        "
+      >
+        <div class="pb-4 flex-grow">
+          Install ngrok & start a tunnel via Docker
+        </div>
+        <div class="flex flex-row flex-grow">
+          <div class="w-full rounded p-3 whitespace-nowrap overflow-y-hidden overflow-x-scroll" style="background-color: #f1eff6">
+            <span style="color: #fa8080" class="mr-2 ml-2 select-none">$</span>
+            <span style="font-family: 'Courier'"
+              >docker run -it -e NGROK_AUTHTOKEN=&lt;token&gt; ngrok/ngrok http 80</span
+            >
+          </div>
+          <button
+            onclick="copyToClipboard(this)"
+            class="
+              cursor-pointer
+              ml-2
+              rounded
+              flex
+              items-center
+              justify-center
+              w-14
+              bg-gray-100
+              hover:bg-gray-200
+            "
+          >
+            <img
+              class="w-4 h-4 md:w-6 md:h-6"
+              src="/static/img/v2/copy-paste.svg"
+            />
+          </button>
+          <div class="copied">
+            <div class="copied-text">Copied!</div>
+          </div>
+        </div>
+        <div class="pt-4">Don’t have an authtoken? <a href="https://dashboard.ngrok.com/signup" class="text-xs sm:text-sm md:text-lg signup-link">Sign up</a></div>
+      </div>
+    </div>
+    <div class="dl-content hidden" id="other-content">
+      <div
+        class="px-4 md:px-8 lg:px-16 pt-4 md:pt-10 flex flex-col justify-center"
+      >
+        <div class="pb-4 flex-grow">
+          Download TGZ file that matches your architecture
+        </div>
+        <div id="other-dropdown-picker" class="bg-white mb-4 relative">
+          <div class="flex flex-row grid grid-col-1 sm:grid-col-2 gap-0 mb-10">
+            <div
+              onclick="showDropdown('other-dropdown')"
+              class="
+                cursor-pointer
+                col-span-full
+                sm:col-span-1
+                md:col-span-2
+                flex flex-row
+                justify-between
+                items-center
+                border border-gray-300
+                hover:bg-gray-100
+              "
+            >
+              <div
+                class="
+                  flex flex-row
+                  justify-center
+                  items-center
+                  text-black
+                  py-3
+                  px-4
+                "
+              >
+                <div class="ml-2.5" id="other-selected">FreeBSD (64-bit)</div>
+              </div>
+              <div class="flex flex-row h-full items-center">
+                <div class="w-0.5 border-l border-gray-300 h-5/6"></div>
+                <button
+                  type="button"
+                  class="
+                    justify-center
+                    items-center
+                    text-black
+                    h-full
+                    px-4
+                    hover:bg-gray-100
+                  "
+                >
+                  <img src="/static/img/v2/chevron-down.svg" />
+                </button>
+              </div>
+            </div>
+            <a
+              id="other-dl-link"
+              class="
+                bg-color-transition
+                download-btn2
+                mt-2
+                sm:mt-0
+                ml-0
+                sm:ml-2
+                py-3
+                px-4
+                col-span-full
+                sm:col-span-1
+                flex flex-row
+                items-center
+                justify-center
+                cursor-pointer
+              "
+              href="https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-freebsd-amd64.tgz"
+            >
+              <svg
+                width="32"
+                height="23"
+                viewBox="0 0 25 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M15.443 16.357V14.785H19.994C22.133 14.785 23.227 13.691 23.227 12.188C23.227 10.498 22.084 9.38502 20.307 8.99402C20.189 8.97502 20.141 8.89602 20.15 8.77002C20.189 8.31102 20.219 7.78302 20.189 7.34402C20.023 4.43402 17.807 1.89502 14.604 1.89502C12.074 1.89502 10.619 3.29102 9.67199 4.98002C9.61299 5.08802 9.54499 5.10702 9.42799 5.06802C7.41599 4.48202 5.25799 5.31202 5.25799 8.31102C5.25799 8.43802 5.20899 8.51602 5.07199 8.51602C3.00199 8.51602 1.81999 9.90202 1.81999 11.768C1.81999 13.447 3.03099 14.785 5.34599 14.785H9.69099V16.357H5.35499C2.15199 16.357 0.247986 14.307 0.247986 11.768C0.247986 9.46302 1.62499 7.65602 3.83199 7.31402C3.88099 4.57002 6.68399 2.85202 8.89999 3.44702C10.072 1.73802 11.957 0.322021 14.604 0.322021C18.598 0.322021 21.732 3.46702 21.713 7.82202C23.617 8.59402 24.799 10.215 24.799 12.188C24.799 14.551 23.002 16.357 20.004 16.357H15.443ZM13.129 21.895C12.924 22.08 12.768 22.158 12.572 22.158C12.367 22.158 12.211 22.08 12.006 21.895L8.70499 18.809C8.54899 18.672 8.47099 18.506 8.47099 18.291C8.47099 17.9 8.76399 17.607 9.17399 17.607C9.35899 17.607 9.56399 17.695 9.71099 17.842L11.195 19.326L11.85 20.02L11.791 18.555V10.176C11.791 9.76602 12.152 9.41402 12.572 9.41402C12.992 9.41402 13.344 9.76602 13.344 10.176V18.555L13.285 20.01L13.939 19.326L15.424 17.842C15.57 17.695 15.766 17.607 15.951 17.607C16.352 17.607 16.664 17.9 16.664 18.291C16.664 18.506 16.586 18.672 16.43 18.809L13.129 21.895Z"
+                  fill="currentColor"
+                />
+              </svg>
+              Download
+            </a>
+          </div>
+          <ul
+            id="other-dropdown"
+            class="
+              hidden
+              absolute
+              z-10
+              left-0
+              top-10
+              sm:top-16
+              md:top-12
+              mt-2
+              w-full
+              sm:w-1/2
+              md:w-2/3
+              col-span-2
+              shadow-lg
+              bg-white
+              border border-gray-300
+              -mr-2
+            "
+          >
+            <li
+              class="
+                cursor-default
+                select-none
+                relative
+                pl-4
+                pt-2
+                pb-1
+                text-gray-500 text-sm
+              "
+            >
+              FreeBSD
+            </li>
+
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="freebsd_amd64"
+            >
+              FreeBSD (64-bit)
+            </li>
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="freebsd_386"
+            >
+              FreeBSD (32-bit)
+            </li>
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="freebsd_arm"
+            >
+              FreeBSD (ARM)
+            </li>
+            <li
+              class="
+                cursor-default
+                select-none
+                relative
+                pl-4
+                pt-2
+                pb-1
+                text-gray-500 text-sm
+              "
+            >
+              Solaris
+            </li>
+            <li
+              class="cursor-pointer select-none relative p-4 hover:bg-gray-100"
+              id="solaris_amd64"
+            >
+              Solaris (AMD64)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mt-4 w-full sm:w-5/6 lg:w-800 bg-white rounded-lg"
+    style="box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06)"
+  >
+    <div
+      id="step2"
+      class="
+        px-4
+        md:px-8
+        lg:px-16
+        pt-4
+        md:pt-10
+        pb-8
+        md:pb-12
+        flex flex-col
+        justify-center
+      "
+    >
+      <div class="pb-4">Add authtoken</div>
+      <div class="flex flex-row flex-grow">
+        <div class="w-full rounded p-3" style="background-color: #f1eff6">
+          <span style="color: #fa8080" class="mr-2 ml-2 select-none">$</span>
+          <span style="font-family: 'Courier'"
+            >ngrok authtoken &lt;token&gt;</span
+          >
+        </div>
+        <button
+          onclick="copyToClipboard(this)"
+          class="
+            cursor-pointer
+            ml-2
+            rounded
+            flex
+            items-center
+            justify-center
+            w-14
+            bg-gray-100
+            hover:bg-gray-200
+          "
+        >
+          <img
+            class="w-4 h-4 md:w-6 md:h-6"
+            src="/static/img/v2/copy-paste.svg"
+          />
+        </button>
+        <div class="copied">
+          <div class="copied-text">Copied!</div>
+        </div>
+      </div>
+      <div class="pt-4">Don’t have an authtoken? <a href="https://dashboard.ngrok.com/signup" class="text-xs sm:text-sm md:text-lg signup-link">Sign up</a></div>
+    </div>
+  </div>
+  <div
+    id="step3"
+    class="mt-4 lg:mb-32 w-full sm:w-5/6 lg:w-800 bg-white rounded-lg"
+    style="box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06)"
+  >
+    <div
+      class="
+        px-4
+        md:px-8
+        lg:px-16
+        pt-4
+        md:pt-10
+        pb-8
+        md:pb-12
+        flex flex-col
+        justify-center
+      "
+    >
+      <div class="pb-4 flex-grow">Start a tunnel</div>
+      <div class="flex flex-row flex-grow">
+        <div class="w-full rounded p-3" style="background-color: #f1eff6">
+          <span style="color: #fa8080" class="mr-2 ml-2 select-none">$</span>
+          <span style="font-family: 'Courier'">ngrok http 80</span>
+        </div>
+        <button
+          onclick="copyToClipboard(this)"
+          class="
+            cursor-pointer
+            ml-2
+            rounded
+            flex
+            items-center
+            justify-center
+            w-14
+            bg-gray-100
+            hover:bg-gray-200
+          "
+        >
+          <img
+            class="w-4 h-4 md:w-6 md:h-6"
+            src="/static/img/v2/copy-paste.svg"
+          />
+        </button>
+        <div class="copied">
+          <div class="copied-text">Copied!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(function () {
+    var userPlatform = navigator.platform.toUpperCase();
+    if (userPlatform.indexOf("WIN") !== -1) {
+      $("#windows").click();
+    } else if (userPlatform.indexOf("LINUX") !== -1) {
+      if (userPlatform.indexOf("386") !== -1) {
+        $("#linux-selected").text("386");
+        $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.tgz`);
+      } else if (userPlatform.indexOf("ARM") !== -1) {
+        $("#linux-selected").text("ARM");
+        $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.tgz`);
+      }
+      $("#linux").click();
+    } else {
+      $("#macos").click();
+    }
+  });
+  $("#darwin_arm64").on("click", function () {
+    $(this).parent().toggle();
+    $("#macos-selected").text("Apple Silicon (ARM64)");
+    $("#macos-extract").text("sudo unzip ~/Downloads/ngrok-stable-darwin-arm64.zip -d /usr/local/bin")
+    $("#macos-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-darwin-arm64.zip`);
+  });
+  $("#darwin_amd64").on("click", function () {
+    $(this).parent().toggle();
+    $("#macos-selected").text("Intel (AMD64)");
+    $("#macos-extract").text("sudo unzip ~/Downloads/ngrok-stable-darwin-amd64.zip -d /usr/local/bin")
+    $("#macos-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-darwin-amd64.zip`);
+  });
+  $("#windows_amd64").on("click", function () {
+    $(this).parent().toggle();
+    $("#windows-selected").text("Windows (64-bit)");
+    $("#windows-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip`);
+  });
+  $("#windows_386").on("click", function () {
+    $(this).parent().toggle();
+    $("#windows-selected").text("Windows (32-bit)");
+    $("#windows-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-386.zip`);
+  });
+  $("#linux_amd64").on("click", function () {
+    $(this).parent().toggle();
+    $("#linux-selected").text("x86-64");
+    $("#linux-extract").text("sudo tar xvzf ~/Downloads/ngrok-stable-linux-amd64.tgz -C /usr/local/bin")
+    $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz`);
+  });
+  $("#linux_386").on("click", function () {
+    $(this).parent().toggle();
+    $("#linux-selected").text("386");
+    $("#linux-extract").text("sudo tar xvzf ~/Downloads/ngrok-stable-linux-386.tgz -C /usr/local/bin")
+    $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.tgz`);
+  });
+  $("#linux_arm64").on("click", function () {
+    $(this).parent().toggle();
+    $("#linux-selected").text("ARM64");
+    $("#linux-extract").text("sudo tar xvzf ~/Downloads/ngrok-stable-linux-arm64.tgz -C /usr/local/bin")
+    $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.tgz`);
+  });
+  $("#linux_arm").on("click", function () {
+    $(this).parent().toggle();
+    $("#linux-selected").text("ARM");
+    $("#linux-extract").text("sudo tar xvzf ~/Downloads/ngrok-stable-linux-arm.tgz -C /usr/local/bin")
+    $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.tgz`);
+  });
+  $("#linux_mips").on("click", function () {
+    $(this).parent().toggle();
+    $("#linux-selected").text("mips");
+    $("#linux-extract").text("sudo tar xvzf ~/Downloads/ngrok-stable-linux-mips.tgz -C /usr/local/bin")
+    $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-mips.tgz`);
+  });
+  $("#linux_mipsle").on("click", function () {
+    $(this).parent().toggle();
+    $("#linux-selected").text("mipsle");
+    $("#linux-extract").text("sudo tar xvzf ~/Downloads/ngrok-stable-linux-mipsle.tgz -C /usr/local/bin")
+    $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-mipsle.tgz`);
+  });
+  $("#linux_mips64").on("click", function () {
+    $(this).parent().toggle();
+    $("#linux-selected").text("mips64");
+    $("#linux-extract").text("sudo tar xvzf ~/Downloads/ngrok-stable-linux-mips64.tgz -C /usr/local/bin")
+    $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-mips64.tgz`);
+  });
+  $("#linux_mips64le").on("click", function () {
+    $(this).parent().toggle();
+    $("#linux-selected").text("mips64le");
+    $("#linux-extract").text("sudo tar xvzf ~/Downloads/ngrok-stable-linux-mips64le.tgz -C /usr/local/bin")
+    $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-mips64le.tgz`);
+  });
+  $("#linux_ppc64").on("click", function () {
+    $(this).parent().toggle();
+    $("#linux-selected").text("Power PC 64");
+    $("#linux-extract").text("sudo tar xvzf ~/Downloads/ngrok-stable-linux-ppc64.tgz -C /usr/local/bin")
+    $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-ppc64.tgz`);
+  });
+  $("#linux_ppc64le").on("click", function () {
+    $(this).parent().toggle();
+    $("#linux-selected").text("Power PC 64 LE");
+    $("#linux-extract").text("sudo tar xvzf ~/Downloads/ngrok-stable-linux-ppc64le.tgz -C /usr/local/bin")
+    $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-ppc64le.tgz`);
+  });
+  $("#linux_s390x").on("click", function () {
+    $(this).parent().toggle();
+    $("#linux-selected").text("s390x");
+    $("#linux-extract").text("sudo tar xvzf ~/Downloads/ngrok-stable-linux-s390x.tgz -C /usr/local/bin")
+    $("#linux-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-s390x.tgz`);
+  });
+  $("#freebsd_arm").on("click", function () {
+    $(this).parent().toggle();
+    $("#other-selected").text("FreeBSD (ARM)");
+    $("#other-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-freebsd-arm.tgz`);
+  });
+  $("#freebsd_amd64").on("click", function () {
+    $(this).parent().toggle();
+    $("#other-selected").text("FreeBSD (64-bit)");
+    $("#other-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-freebsd-amd64.tgz`);
+  });
+  $("#freebsd_386").on("click", function () {
+    $(this).parent().toggle();
+    $("#other-selected").text("FreeBSD (32-bit)");
+    $("#other-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-freebsd-386.tgz`);
+  });
+  $("#solaris_amd64").on("click", function () {
+    $(this).parent().toggle();
+    $("#other-selected").text("Solaris (AMD64)");
+    $("#other-dl-link").attr("href", `https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-solaris-amd64.tgz`);
+  });
+
+  $(".tab").on("click", function () {
+    const id = $(this).attr("id");
+    $(".tab").addClass("hover:bg-gray-200");
+    $(this).removeClass("hover:bg-gray-200");
+    $(".tab").children().removeClass("text-blue-800").addClass("text-gray-400");
+    $(".tab")
+      .children()
+      .parent()
+      .removeClass("bg-white")
+      .addClass("bg-gray-100");
+    $(this).children().removeClass("text-gray-400").addClass("text-blue-800");
+    $(this).children().parent().removeClass("bg-gray-100").addClass("bg-white");
+    $(".tab").addClass("cursor-pointer");
+    $(this).removeClass("cursor-pointer");
+    $(".dl-content").addClass("hidden");
+    $(`#${id}-content`).removeClass("hidden");
+    if (id == "docker") {
+      $("#step2").hide();
+      $("#step3").hide();
+    } else {
+      $("#step2").show();
+      $("#step3").show();
+    }
+  });
+
+  async function copyToClipboard(obj) {
+    try {
+      const cmd = $(obj).prev().children().eq(1).text();
+      await window.navigator.clipboard.writeText(cmd);
+      const popup = $(obj).next().show();
+      setTimeout(() => $(obj).next().hide(), 1000);
+    } catch (error) {
+      console.log("copyToClipboard error!", error);
+    }
+  }
+
+  const dropdowns = ["macos", "windows", "linux", "other"];
+
+  $(document).on("click", function (event) {
+    dropdowns.forEach((dropdown) => {
+      if (!$(event.target).closest(`#${dropdown}-dropdown-picker`).length) {
+        $(`#${dropdown}-dropdown`).hide();
+      }
+    });
+  });
+
+  function showDropdown(id) {
+    $(`#${id}`).toggle();
+  }
+</script>
+
+
+
+    
+    
+      <div id="footer" class="footer">
+	<div class="mycontain">
+		<div class="footer-upper-wrap p-v50">
+			<div class="footer-links-wrap">
+				<a href="/product" class="small-body footer-links">How it works</a>
+				<a href="/product/ngrok-link" class="small-body footer-links">Enterprise solutions</a>
+				<a href="/pricing" class="small-body footer-links">Pricing</a>
+				<a href="/docs" class="small-body footer-links">Docs</a>
+				<a href="/download" class="small-body footer-links">Download</a>
+				<a href="/careers" class="small-body footer-links">Careers</a>
+				<a href="https://status.ngrok.com" class="small-body footer-links">Status</a>
+			</div>
+			<div class="footer-cta-wrap">
+				<h3 class="white">Stay focused on coding.</h3><a
+					href="https://dashboard.ngrok.com/signup" class="cta-button ghost-button footer-ghost w-button">Get started for free</a></div>
+			<div class="div-block">
+				<div class="lower-links-wrap">
+					<a href="/abuse" class="small-body footer-links">Abuse</a>
+					<a href="/dpa" class="small-body footer-links">DPA</a>
+					<a href="/privacy" class="small-body footer-links">Privacy</a>
+					<a href="/security" class="small-body footer-links">Security</a>
+					<a href="/tos" class="small-body footer-links">Terms of service</a>
+				</div>
+				<a href="/" class="footer-logo-wrap w-inline-block"><img src="/static/img/ngrok-white.svg" width="10" alt="" class="footer-logo"></a>
+			</div>
+		</div>
+		<div class="small-caps copyright">© ngrok 2022</div>
+		
+		
+	</div>
+</div>
+    
+    
+  </body>
+  
+  
+  <script src='/static/js/simulate-typing.js?t=2022-04-02%2020%3A35%3A47.302087' defer></script>
+  
+  <script src='/static/js/main.js?t=2022-04-02%2020%3A35%3A47.302087' defer></script>
+  <script src="/static/js/webflow.js" type="text/javascript" defer></script>
+
+  
+
+</html>
